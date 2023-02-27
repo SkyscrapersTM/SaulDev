@@ -25,6 +25,7 @@ import { GrMysql } from "react-icons/gr";
 import { TbBrandTailwind } from "react-icons/tb";
 // End Icons
 import "./App.css";
+import cv from "./assets/CV-2023.pdf";
 import consulting from "./assets/consulting.png";
 import code from "./assets/code.png";
 import design from "./assets/design.png";
@@ -59,7 +60,9 @@ function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-sm px-4 py-2 rounded-md ml-8 lg:text-base"
-                  href="#"
+                  href={cv}
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Curriculum vitae
                 </a>
