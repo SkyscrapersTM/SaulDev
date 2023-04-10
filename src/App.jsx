@@ -76,7 +76,7 @@ function App() {
               SaulDev
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Full Stack Developer <br />
+              Front End Developer <br />
               <span className="flex justify-center items-center gap-1 text-base text-gray-500 md:text-lg dark:text-gray-200">
                 more coffe, more code
                 <AiOutlineCoffee className="text-yellow-700 dark:text-yellow-600" />
